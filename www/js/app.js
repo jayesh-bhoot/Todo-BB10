@@ -1,3 +1,46 @@
+function TodoReader(dataDir, fileName) {
+    return (function(dataDir, fileName) {
+        var dir = dataDir;
+        var file = fileName;
+
+        function populate(todoList) {
+            window.resolveLocalFileSystemURL(dir, dataDirFound, operationFailed);
+
+            function dataDirFound(dirEntry) {
+                dirEntry.getFile(file, {create: true, exclusive: false},
+                                 fileFound, operationFailed);
+            }
+
+            function fileFound(fileEntry) {
+                fileEntry.file(fileOpened, operationFailed);
+            }
+
+            function fileOpened(file) {
+                var reader = new FileReader();
+                reader.onload = function(evt) {
+                    var todos = evt.target.result.split('\n');
+                    for (var i = 0; i < todos.length; ++i) {
+                        if (!todos[i].length)
+                            continue;
+                        todoList.append(todos[i]);
+                    }
+                };
+                reader.readAsText(file);
+            }
+
+            function operationFailed(error) {
+                //TODO: Add better error handling here.
+                console.log(error.code);
+            }
+        }
+
+        return {
+            populate: populate
+        };
+    })(dataDir, fileName);
+}
+
+
 function TodoWriter(dataDir, fileName) {
     return (function(dataDir, fileName) {
         var dir = dataDir;
@@ -20,7 +63,7 @@ function TodoWriter(dataDir, fileName) {
                     //TODO: Add some notification perhaps.
                 };
                 fileWriter.seek(fileWriter.length);
-                fileWriter.write(todo);
+                fileWriter.write(todo + '\n');
             }
 
             function operationFailed(error) {
@@ -45,8 +88,10 @@ function TodoInput(id, todoTxt, todoList) {
         $(id).keypress(function(evt) {
            if (evt.keyCode == 13) {
                 var todo = $(this).val();
-                todoList.append(todo);
-                todoTxt.append(todo);
+                if (todo.length) {
+                    todoList.append(todo);
+                    todoTxt.append(todo);
+                }
                 $(this).val('');
                 deactivate();
             }
@@ -82,7 +127,15 @@ function TodoList(id) {
         function append(todo) {
             var item = $('<div>')
                 .attr('data-bb-type', 'item')
-                .html(todo);
+                .html(todo)
+                .swipeLeft(function() {
+                    $(this).addClass('strikeout');
+                    // TODO: Bring the item at the bottom of the list.
+                })
+                .swipeRight(function() {
+                    $(this).removeClass('strikeout');
+                    // Reorder on the basis of?
+                });
             $(id)[0].appendItem(item[0]);
         }
 
@@ -117,12 +170,16 @@ function ContentArea(id, todoInput) {
 
 
 function initApp() {
-    var todoWriter = TodoWriter(cordova.file.dataDirectory, 'todo.txt');
     var todoList = TodoList('todoList');
+
+    var todoReader = TodoReader(cordova.file.dataDirectory, 'todo.txt');
+    todoReader.populate(todoList);
+
+    var todoWriter = TodoWriter(cordova.file.dataDirectory, 'todo.txt');
+
     var todoInput = TodoInput('todoInput', todoWriter, todoList);
     var contentArea = ContentArea('content', todoInput);
 
     contentArea.setupSwipeActions();
     todoInput.deactivate();
 }
-

@@ -1,8 +1,8 @@
 html { height: 100% }
 
-body { 
-	height: 100%; 
-	margin: 0; 
+body {
+	height: 100%;
+	margin: 0;
 	padding: 0;
 }
 
@@ -15,4 +15,16 @@ body {
 #content p {
 	text-align: center;
 	font-size: 6em;
+}
+
+.strikeout {
+    position: relative;
+}
+.strikeout::after {
+    border-bottom: 5px solid red;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 10px;
+    top: 70%;
 }
