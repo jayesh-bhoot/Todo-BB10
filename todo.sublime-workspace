@@ -1,0 +1,672 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"keyb",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"default",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"prefere",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"settings user",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"prefern",
+				"Preferences: Settings - User"
+			],
+			[
+				"html",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"settings",
+				"Preferences: Settings - Default"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 353.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ghost/WebWorks Projects/Todo",
+		"/home/ghost/WebWorks Projects/Todo/.cordova"
+	],
+	"file_history":
+	[
+		"/home/ghost/WebWorks Projects/Todo/.cordova/config.json",
+		"/home/ghost/work/superlists/superlists.sublime-project",
+		"/home/ghost/work/isotel/intuition/TODO",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/static/js/start.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/base.js",
+		"/home/ghost/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ghost/work/isotel/intuition/intuition/views.py",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/views.py",
+		"/home/ghost/work/isotel/intuition/intuition/templates/admin/invitation-stat-template.html",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/static/js/main.js",
+		"/home/ghost/work/isotel/intuition/intuition/templates/snippets/pending-share-requests.html",
+		"/home/ghost/work/isotel/intuition/intuition/static/locales/dev/translation.json",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/share-confirmation-util.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/locales/en/translation.json",
+		"/home/ghost/work/isotel/intuition/intuition/static/locales/sl/translation.json",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/bootstrap/transition.js",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/templates/snippets/main.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/share-confirmation.html",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/templates/main.html",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/templates/start.html",
+		"/home/ghost/work/isotel/intuition/notes/spec-analysis.txt",
+		"/home/ghost/work/isotel/intuition/intuition/templates/share-request-email.html",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/share-confirmation.js",
+		"/home/ghost/work/isotel/intuition/intuition/templates/share-email.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/admin/social.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/social.html",
+		"/home/ghost/work/isotel/intuition/intuition/social_views.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_share_confirmation.py",
+		"/home/ghost/work/isotel/intuition/intuition/utils/custom_arg_parser.py",
+		"/home/ghost/work/isotel/intuition/intuition/config.py",
+		"/home/ghost/work/isotel/intuition/intuition/templates/pending-share-requests.html",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/email_import.py",
+		"/home/ghost/work/isotel/intuition/intuition/intuition.py",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/static/css/start.css",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/personality_type.py",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/social.js",
+		"/home/ghost/work/isotel/intuition/intuition/ldapservice.py",
+		"/home/ghost/temp/isotel/chang_lang_sample.txt",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/change_lang.py",
+		"/home/ghost/work/isotel/intuition/docs/development-of-the-architecture.rst",
+		"/home/ghost/work/isotel/intuition/docs/change-lang.rst",
+		"/home/ghost/work/isotel/intuition/docs/software-tools.rst",
+		"/home/ghost/work/isotel/intuition/intuition/utils/flask_enhancements.py",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/new-import-test-samples/score-without-question.xlsx",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/new-import-test-samples/condition-without-score.xlsx",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/types_import.py",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/score_per_type.py",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/new-import-test-samples/ignore-empty-lines.xlsx",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/new-import-test-samples/less-questions-in-later-sheet.xlsx",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/new-import-test-samples/more-questions-in-later-sheet.xlsx",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/questions_import_old.py",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/questions_import.py",
+		"/home/ghost/work/isotel/intuition/intuition/scripts/mongodb_maintenance.py",
+		"/home/ghost/work/isotel/intuition/docs/questionnaire/scenarios.rst",
+		"/home/ghost/work/isotel/intuition/docs/database/questionnaire-schema.rst",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/templates/contact-us-email-template.html",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_ldapservice.py",
+		"/home/ghost/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
+		"/home/ghost/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ghost/work/isotel/intuition/intuition/tests/testutils.py",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/utils.js",
+		"/home/ghost/work/isotel/intuition/docs/ldap/intuition.schema",
+		"/home/ghost/work/isotel/intuition/docs/ldap/modify-intuition-schema.ldif",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_type_translations.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_social.py",
+		"/home/ghost/work/isotel/intuition/docs/questionnaire/question-import-template.xlsx",
+		"/home/ghost/work/isotel/intuition/docs/login/email-login-design.dot",
+		"/home/ghost/work/isotel/intuition/intuition/cookie_tracking.py",
+		"/home/ghost/work/isotel/intuition/intuition/templates/contact-us.html",
+		"/home/ghost/work/isotel/intuition/notes/question-json.txt",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/static/js/imagesloaded.min.js",
+		"/home/ghost/work/isotel/intuition/docs/deployment/deployment.rst",
+		"/home/ghost/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/ghost/work/isotel/intuition/docs/login/email-login.rst",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/exceptions.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_q_views.py",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/templates/registration-email.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/book-reader.html",
+		"/home/ghost/work/isotel/intuition/intuition/static/css/book.css",
+		"/home/ghost/work/isotel/intuition/intuition/templates/tokenized-book.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/snippets/book.html",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/book.js",
+		"/home/ghost/work/isotel/intuition/intuition/templates/book.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/intro-book/en.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/intro-book.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/intro-book/sl.html",
+		"/home/ghost/work/isotel/intuition/intuition/templates/tokenized-book/sl.html",
+		"/home/ghost/work/isotel/intuition/notes/simple-login.txt",
+		"/home/ghost/work/isotel/intuition/notes/ssl-irc.txt",
+		"/home/ghost/work/isotel/intuition/docs/registration/registration-process.rst",
+		"/home/ghost/work/isotel/intuition/intuition/requirements.txt",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_email_templates.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_q_session.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_admin_views.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_config.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_algorithm.py",
+		"/home/ghost/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/ghost/work/isotel/intuition/intuition/static/css/fonts/glyphicons-halflings-regular.woff",
+		"/home/ghost/work/isotel/intuition/intuition.sublime-project",
+		"/home/ghost/work/isotel/intuition/intuition/utils/smtp_handler.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_templates.py",
+		"/home/ghost/work/isotel/intuition/intuition/tests/config_q.py",
+		"/home/ghost/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+		"/home/ghost/work/isotel/intuition/intuition/utils/mail.py",
+		"/home/ghost/work/isotel/intuition/intuition/messages.pot",
+		"/home/ghost/work/isotel/intuition/intuition/tests/test_questions_import.py",
+		"/home/ghost/work/isotel/intuition/intuition/config.py.template",
+		"/home/ghost/work/isotel/intuition/intuition/static/css/base.css",
+		"/home/ghost/work/isotel/intuition/intuition/templates/base.html",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/videos.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/home.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/contact-us.js",
+		"/home/ghost/work/isotel/intuition/intuition/templates/home.html",
+		"/home/ghost/work/isotel/intuition/notes/share-feature.txt",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/bootstrap/bootstrap-datetimepicker.min.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/moment-with-locales.min.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/eu-cookie-bar.js",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/static/js/type-images.js",
+		"/home/ghost/work/isotel/intuition/intuition/registration/static/js/zxcvbn-async.js",
+		"/home/ghost/work/isotel/intuition/intuition/registration/static/js/password-setup.js",
+		"/home/ghost/work/isotel/intuition/intuition/questionnaire/static/js/pixastic.blur.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/bootstrap/bootstrap.min.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/locales/si/translation.json",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/spin.min.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/jquery.min.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/i18next.min.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/monocle/monoctrl.js",
+		"/home/ghost/work/isotel/intuition/intuition/static/js/monocle/monocore.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"loadSnippet",
+			"You have shared ",
+			"Success!",
+			"url: ",
+			"this.protocol",
+			"si",
+			"'si'",
+			"\"si\"",
+			" si",
+			"'sl'",
+			"'si'",
+			"config_q.py",
+			"si",
+			"document.URL",
+			" getQueryVariable",
+			"getQueryVariable",
+			"{"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.anaconda_documentation":
+	{
+		"height": 126.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "todo.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"fun",
+				"functional_tests.py"
+			],
+			[
+				"todo",
+				"TODO"
+			],
+			[
+				"main.js",
+				"intuition/questionnaire/static/js/main.js"
+			],
+			[
+				"translation",
+				"intuition/static/locales/dev/translation.json"
+			],
+			[
+				"trans",
+				"intuition/static/locales/sl/translation.json"
+			],
+			[
+				"transla",
+				"intuition/static/locales/en/translation.json"
+			],
+			[
+				"main.html",
+				"intuition/questionnaire/templates/snippets/main.html"
+			],
+			[
+				"share-confirm",
+				"intuition/templates/share-confirmation.html"
+			],
+			[
+				"social.html",
+				"intuition/templates/admin/social.html"
+			],
+			[
+				"pending-sh",
+				"intuition/templates/snippets/pending-share-requests.html"
+			],
+			[
+				"social_views",
+				"intuition/social_views.py"
+			],
+			[
+				"config.py",
+				"intuition/config.py"
+			],
+			[
+				"intuition.py",
+				"intuition/intuition.py"
+			],
+			[
+				"start.js",
+				"intuition/questionnaire/static/js/start.js"
+			],
+			[
+				"pending-share",
+				"intuition/static/js/pending-share-requests.js"
+			],
+			[
+				"change_lan",
+				"intuition/scripts/change_lang.py"
+			],
+			[
+				"social",
+				"intuition/social_views.py"
+			],
+			[
+				"views",
+				"intuition/questionnaire/views.py"
+			],
+			[
+				"scripts/",
+				"intuition/scripts/types_import.py"
+			],
+			[
+				"email_import",
+				"intuition/scripts/email_import.py"
+			],
+			[
+				"questions",
+				"intuition/scripts/questions_import.py"
+			],
+			[
+				"utils",
+				"intuition/tests/testutils.py"
+			],
+			[
+				"ldap",
+				"intuition/ldapservice.py"
+			],
+			[
+				"test_ldap",
+				"intuition/tests/test_ldapservice.py"
+			],
+			[
+				"ldapservice",
+				"intuition/ldapservice.py"
+			],
+			[
+				"quest",
+				"intuition/scripts/questions_import_old.py"
+			],
+			[
+				"custom",
+				"intuition/utils/custom_arg_parser.py"
+			],
+			[
+				"questions_",
+				"intuition/scripts/questions_import.py"
+			],
+			[
+				"import",
+				"intuition/scripts/email_import.py"
+			],
+			[
+				"change_lang",
+				"intuition/scripts/change_lang.py"
+			],
+			[
+				"test_socia",
+				"intuition/tests/test_social.py"
+			],
+			[
+				"book",
+				"intuition/templates/snippets/book.html"
+			],
+			[
+				"toke",
+				"intuition/templates/tokenized-book.html"
+			],
+			[
+				"tokenize",
+				"intuition/templates/tokenized-book.html"
+			],
+			[
+				"flask",
+				"intuition/utils/flask_enhancements.py"
+			],
+			[
+				"book.html",
+				"intuition/templates/snippets/book.html"
+			],
+			[
+				"views.py",
+				"intuition/views.py"
+			],
+			[
+				"sl.html",
+				"intuition/templates/intro-book/sl.html"
+			],
+			[
+				"intro-book",
+				"intuition/templates/intro-book.html"
+			],
+			[
+				"registration-email",
+				"intuition/questionnaire/templates/registration-email.html"
+			],
+			[
+				"test_email",
+				"intuition/tests/test_email_templates.py"
+			],
+			[
+				"test_q_views",
+				"intuition/tests/test_q_views.py"
+			],
+			[
+				"test_type",
+				"intuition/tests/test_type_translations.py"
+			],
+			[
+				"test_admin_views",
+				"intuition/tests/test_admin_views.py"
+			],
+			[
+				"test_type_tra",
+				"intuition/tests/test_type_translations.py"
+			],
+			[
+				"test_confi",
+				"intuition/tests/test_config.py"
+			],
+			[
+				"view",
+				"intuition/questionnaire/views.py"
+			],
+			[
+				"test_q_vi",
+				"intuition/tests/test_q_views.py"
+			],
+			[
+				"test_q_session",
+				"intuition/tests/test_q_session.py"
+			],
+			[
+				"test_config",
+				"intuition/tests/test_config.py"
+			],
+			[
+				"config_q",
+				"intuition/tests/config_q.py"
+			],
+			[
+				"config.py.template",
+				"intuition/config.py.template"
+			],
+			[
+				"start.css",
+				"intuition/questionnaire/static/css/start.css"
+			],
+			[
+				"qstart.css",
+				"intuition/questionnaire/static/css/start.css"
+			],
+			[
+				"base.css",
+				"intuition/static/css/base.css"
+			],
+			[
+				"utils.js",
+				"intuition/static/js/utils.js"
+			],
+			[
+				"base.html",
+				"intuition/templates/base.html"
+			],
+			[
+				"base.js",
+				"intuition/static/js/base.js"
+			],
+			[
+				"home.js",
+				"intuition/static/js/home.js"
+			],
+			[
+				"share-confijs",
+				"intuition/static/js/share-confirmation.js"
+			],
+			[
+				"contact-us",
+				"intuition/static/js/contact-us.js"
+			],
+			[
+				".js",
+				"intuition/static/js/share-confirmation-util.js"
+			],
+			[
+				"start",
+				"intuition/questionnaire/static/js/start.js"
+			],
+			[
+				"config.py.temp",
+				"intuition/config.py.template"
+			],
+			[
+				"flas",
+				"intuition/utils/flask_enhancements.py"
+			],
+			[
+				"test_soci",
+				"intuition/tests/test_social.py"
+			],
+			[
+				"config.py.t",
+				"intuition/config.py.template"
+			],
+			[
+				"config.",
+				"intuition/config.py"
+			],
+			[
+				"html",
+				"intuition/templates/base.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/work/isotel/intuition/intuition.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"load",
+				"loadSnippet"
+			],
+			[
+				"loadSni",
+				"loadSnippet"
+			],
+			[
+				"loadsn",
+				"loadSnippet"
+			]
+		],
+		"width": 750.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/opt/sublime_text"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

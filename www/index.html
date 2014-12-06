@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hello World</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/bbui.css"></link>
+
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <script type="text/javascript" src="js/bbui.js"></script>
+        <script type="text/javascript" src="js/zepto.js"></script>
+        <script type="text/javascript" src="js/zepto.touch.js"></script>
+
+        <script type="text/javascript" src="js/app.js"></script>
+
+        <script type="text/javascript">
+            window.addEventListener('load', function(e) {
+                document.addEventListener('deviceready', function(t) {
+                    // Open our first screen
+                    bb.pushScreen('firstScreen.html', 'firstScreen');
+
+                    bb.init({
+                        actionBarDark: true,
+                        controlsDark: true,
+                        listsDark: true,
+
+                        // Fires "before" styling is applied and "before" the screen is inserted in the DOM
+                        onscreenready: function(element, id) {
+                        },
+
+                        // Fires "after" styling is applied and "after" the screen is inserted in the DOM
+                        ondomready: function(element, id) {
+                            initApp();
+                        }
+                    });
+                }, false);
+            }, false);
+        </script>
+    </head>
+
+    <body>
+    </body>
+</html>

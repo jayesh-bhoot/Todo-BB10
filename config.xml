@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="Todo" xmlns:rim="http://www.blackberry.com/ns/widgets" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">  
+	<name>Todo</name>
+	<description>A gesture-based to-do app for BB10</description>
+	<author email="ghost@outlook.in" href="http://cordova.io"> CodeZombies </author>
+	<content src="index.html"/>
+	<access origin="*"/>
+	<preference name="Orientation" value="portrait"/>
+</widget>
