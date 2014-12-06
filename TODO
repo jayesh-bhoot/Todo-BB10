@@ -1,0 +1,14 @@
++ Mark as done:
+    + Reflect the 'done' status in storage.
++ Unmark as done:
+    + Reflect the undoing of 'done' status in storage.
+
++ UI:
+    + Make text larger somehow.
+    + Beautify strikethrough.
+    + Animate strikethrough if at all possible.
+
++ Add todo.txt syntax in storage.
++ Add Delete functionality.
++ Add Settings.
++ Add Dropbox integration.
